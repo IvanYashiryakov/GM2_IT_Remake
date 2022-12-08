@@ -1,0 +1,7 @@
+function startNewGame() {
+	// startNewGame();
+
+
+
+
+}

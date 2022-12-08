@@ -1,0 +1,48 @@
+Converting GML script: ${project_dir}\scripts\resetGame\resetGame.gml
+Converted description /// @description  resetGame();
+
+Converting GML script: ${project_dir}\scripts\serverLockPorts\serverLockPorts.gml
+Converted description /// @description  serverLockPorts(_cX, _cY);/// @param _cX
+/// @param  _cY
+
+Converting GML script: ${project_dir}\scripts\serverRotation\serverRotation.gml
+Converted description /// @description  serverRotation();
+
+Font debugFont has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\debugFont\debugFont.gms1.png
+Converting GML script: ${project_dir}\objects\obj_PCWire\Alarm_1.gml
+Converted description /// @description canMove = !freeze;
+
+Converting GML script: ${project_dir}\objects\obj_PCWire\Alarm_0.gml
+Converted description /// @description Rotation
+
+Converting GML script: ${project_dir}\objects\obj_Server\Alarm_1.gml
+Converted description /// @description canMove = !freeze;
+
+Converting GML script: ${project_dir}\objects\obj_Server\Alarm_0.gml
+Converted description /// @description Rotation
+
+Converting GML script: ${project_dir}\objects\obj_Wire\Alarm_1.gml
+Converted description /// @description canMove = !freeze;
+
+Converting GML script: ${project_dir}\objects\obj_Wire\Alarm_0.gml
+Converted description /// @description Rotation
+
+Converting GML script: ${project_dir}\objects\obj_Screen\Create_0.gml
+Converted builtin - line 4: view_wview[0]=room_width -> __view_set( e__VW.WView, 0, room_width )
+Converted builtin - line 5: view_hview[0]=room_height -> __view_set( e__VW.HView, 0, room_height )
+Converted builtin - line 6: view_wport[0]=display_get_width( -> __view_set( e__VW.WPort, 0, display_get_width( )
+Converted builtin - line 7: view_hport[0]=display_get_height( -> __view_set( e__VW.HPort, 0, display_get_height( )
+
+Game speed set to 60
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script '__global_object_depths.gml'
